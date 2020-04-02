@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #F2F7F8;
+    min-height: 100vh;
+}
+
+.header .center, .content {
+    width: 80vw;
+    padding-left: 10vw;
+}
+
+.header {
+    background-color: #3498DB;
+    width: 100vw;
+    height: 5vh;
+    min-height: 50px;
+} .header .hero {
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    color: #ECF0F1;
+} .header .toggle, .header .new {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #ECF0F1;
+    text-transform: uppercase;
+
+    padding-left: 1vw;
+    display: inherit;
+    justify-content: right;
+
+    cursor: pointer;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+
+    height: inherit;
+    min-height: inherit;
+} .right{
+    display: inherit;
+    justify-content: right;
+
+    width: inherit;
+    min-width: inherit;
+}
+
+footer {
+    position: fixed;
+    bottom: 5vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+} footer .footerhero, footer .author {
+    font-family: 'Fredoka One';
+    color: #3498DB;
+} footer .footerhero {
+    font-size: 25px;
+} footer .author {
+    font-size: 15px;
+    padding-bottom: 10px;
+} footer .github {
+    width: 30px;
+    height: 30px;
+}

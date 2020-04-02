@@ -1,0 +1,52 @@
+.content .note {
+    margin-top: 2.5vh;
+    min-height: 10vh;
+    width: 100%;
+
+    border: 1px solid #E2E8EA;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px #6D8C93;
+} .content .note .titlebar {
+    min-height: 5vh;
+    background-color: #FFF;
+    
+    border-bottom: 1px solid #E2E8EA;
+} .content .note .contentbar {
+    min-height: 5vh;
+    background-color: #FBFCFC;
+}
+
+.content .note .titlebar .title {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+
+    margin-left: 1vw;
+    flex-basis: 100%;
+} .titlebar .icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 0.5vw;
+} .titlebar .right, .contentbar .right {
+    width: 100%;
+}
+
+.content .note .contentbar .text {
+    margin-left: 1vw;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+
+    flex-basis: 800%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} .contentbar .editdate {
+    margin-right: 0.5vw;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-style: italic;
+    font-size: 14px;
+    color: #3498DB;
+}
